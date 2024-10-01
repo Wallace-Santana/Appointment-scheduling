@@ -5,6 +5,7 @@ import { hoursClick } from "./hours-click.js";
 const hours =  document.getElementById("hours");
 
 export function hoursLoad({date}){
+    hours.innerHTML = "";
     const openin = openingHours.map((hour) =>{
         const [scheduleHour] = hour.split(":");
         const isHoursPast = dayjs(date).add(scheduleHour, "hour").isAfter(dayjs())
