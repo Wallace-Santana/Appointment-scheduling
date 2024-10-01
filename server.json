@@ -1,14 +1,3 @@
 {
-  "schedules": [
-    {
-      "id": 1727749278840,
-      "name": "Wallace Santana",
-      "when": "2024-10-02T12:00:00.000Z"
-    },
-    {
-      "id": 1727749491053,
-      "name": "Wallace Santana",
-      "when": "2024-10-02T13:00:00.000Z"
-    }
-  ]
+  "schedules": []
 }
